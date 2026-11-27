@@ -6,7 +6,7 @@ Python simulations in aerodynamics, flight dynamics, and orbital mechanics.
 
 | Folder | Status | Description |
 |---|---|---|
-| `naca-airfoil-analysis/` | Done (v1) | NACA 2412 vs NACA 0012: geometry, thin-airfoil-theory lift, parabolic drag polar |
+| `naca-airfoil-analysis/` | Done (v2) | NACA 2412 vs NACA 0012: geometry, thin-airfoil theory, finite-wing lifting line, and XFOIL viscous polar benchmarking ($Re = 10^6$) |
 
 ## Run
 
@@ -14,8 +14,4 @@ Python simulations in aerodynamics, flight dynamics, and orbital mechanics.
 pip install numpy matplotlib
 cd naca-airfoil-analysis
 python main.py
-```
-
-## Scope note
-
-Results are model estimates under stated assumptions, not experimental data. See each project's `REPORT.md` for assumptions and limitations.
+python validate_viscous.py --re 1e6
