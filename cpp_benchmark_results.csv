@@ -1,0 +1,2 @@
+cases,N,python_s,cpp_O3_s,speedup,checksum_python,checksum_cpp,checksums_agree,max_abs_diff_verify,platform,python,numpy,compiler
+10000,40,0.58215,0.70518,0.83,14040.979680258533,14040.979680258501,True,4.96e-13,Windows-11-10.0.26300-SP0,3.13.14,2.5.0,"g++ (MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders, r8) 13.2.0"
